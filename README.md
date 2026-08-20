@@ -68,4 +68,30 @@ Classification Report:
   weighted avg   1.00		    1.00     1.00		      45
 <img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/bd61e04b-b65a-459d-9ac6-4d73cf63642c" />
 
+Exercise5 output:
+Sample Data:
+label                            text
+0   ham  Subject: enron methanol ; meter # : 988291\r\n...
+1   ham  Subject: hpl nom for january 9 , 2001\r\n( see...
+2   ham  Subject: neon retreat\r\nho ho ho , we ' re ar...
+3  spam  Subject: photoshop , windows , office . cheap ...
+4   ham  Subject: re : indian springs\r\nthis deal is t...
+
+Model Accuracy: 0.9916237113402062
+
+Classification Report:
+               precision    recall  f1-score   support
+
+         Ham       1.00      0.99      0.99      1121
+        Spam       0.98      0.99      0.99       431
+
+    accuracy                           0.99      1552
+   macro avg       0.99      0.99      0.99      1552
+weighted avg       0.99      0.99      0.99      1552
+
+New Email Predictions:
+'Congratulations! You've won a $1000 Walmart gift card. Click here to claim now.' → Spam
+'Hi John, just wanted to confirm our meeting tomorrow at 10 AM.' → Ham
+
+
 
